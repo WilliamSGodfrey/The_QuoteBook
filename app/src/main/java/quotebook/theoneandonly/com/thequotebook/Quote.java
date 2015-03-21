@@ -1,7 +1,7 @@
 package quotebook.theoneandonly.com.thequotebook;
 
 /**
- * Created by Will and Jane on 3/17/2015.
+ * Created by Will on 3/17/2015.
  */
 public class Quote {
 

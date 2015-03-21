@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class Quotebook extends android.app.Activity {
 
-    int count = 0;
+        int count = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,20 +25,26 @@ public class Quotebook extends android.app.Activity {
 
         final ArrayList<Quote> quoteList = new ArrayList<Quote>();
 
-        Quote quote4 = new Quote("You're more of a fun vampire. You don't suck blood, you just suck.", "Troy Barnes");
+        Quote quote4 = new Quote("Whatever in creation exists without my knowledge exists without my consent.", "Judge Holden");
         quoteList.add(quote4);
 
-        Quote quote1 = new Quote("Cool Beans", "Rod Kimble");
+        Quote quote1 = new Quote("When the Lambs is lost in the mountain. They is cry. Sometime come the mother. Sometime the wolf.", "Mexican Leader");
         quoteList.add(quote1);
 
-        Quote quote2 = new Quote("How can mirrors be real if our eyes aren't real", "Jaden Smith");
+        Quote quote2 = new Quote("For whoever makes makes a shelter of reeds and hides has joined his spirit to the common destiny of creatures and he will subside back into the primal mud with scarcely a cry. But who builds in stone seeks to alter the structure of the universe and so it was with these masons however primitive their works may seem to us.", "Judge Holden");
         quoteList.add(quote2);
 
-        Quote quote3 = new Quote("That's like me blaming owls for how bad I suck at analogies.", "Britta Perry");
+        Quote quote3 = new Quote("Men are born for games. Nothing else. Every child knows that play is nobler than work. He knows too that the worth or merit of a game is not inherent in the game itself but rather in the value of that which is put at hazard.", "Judge Holden");
         quoteList.add(quote3);
 
-        Quote quote5 = new Quote("I was gonna be the first person in my family to graduate from community college. Everyone else graduated from normal college", "Troy Barnes");
+        Quote quote5 = new Quote("It makes no difference what men think of war.... War endures. As well ask men what they think of stone. War was always here. Before man was, war waited for him. The ultimate trade awaiting its ultimate practitioner.", "Judge Holden");
         quoteList.add(quote5);
+
+        Quote quote7 = new Quote("There is no such joy in the tavern as upon the road thereto.", "Mennonite.");
+        quoteList.add(quote7);
+
+        Quote quote6 = new Quote("Females of domestic reputation lounged upon the balconies they passed with faces gotten up in indigo and almagre gaudy as the rumps of apes and they peered from behind their fans with a kind of lurid coyness like transvestites in a madhouse.", "Narrator");
+        quoteList.add(quote6);
 
         //Add more quotes here
 
